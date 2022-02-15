@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap" rel="stylesheet">
     <title>EliMullan Portfolio</title>
     <link href="styles.css" rel="stylesheet">
 </head>
@@ -11,9 +14,9 @@
     <header>
         <nav>
             <ul>
-                <li><a href='#'>About me</a></li>
-                <li><a href='#'>Projects</a></li>
-                <li><a href='#'>Contact</a></li>
+                <li><a href='index.html'>About me</a></li>
+                <li><a href='index.html#projects'>Projects</a></li>
+                <li><a href='contact.html'>Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -29,15 +32,23 @@
                 <p>Having earned a Bachelors' in Mathematics and Computer Science in my 20's , I have later built an unrelated but successful career in the Travel Industry, leading guided trips of Europe or Ireland. Pushed by the pandemic and by old passions, I am now working my way towards the IT Industry. After learning HTML, CSS, and JS basics on W3School , I am now retraining on the codeCademy Full Stack Engineer path .</p>
             </div>
         </section>
-        <section class="projects">
+        <section id='projects' class="projects">
             <h2>Projects</h2>
             <div class="project-hiking">
-                <img src="media\hikingIreland.JPG" alt="hiking ireland" width=100%" height="auto">
+                <a href='https://elimullan.github.io/hiking-ireland/'> <img src="media\hikingIreland.JPG" alt="hiking ireland" width=100%" height="auto"></a>
+                <div class="project-text">
                 <p>Landing Page for fictional hiking freelancer</p>
+                <p>Click on image to see live project</p>
+                <p>Used HTML, CSS, flexbox </p>
+                </div>
             </div>
             <div class="project-walking">
-                <img src="media\d-walking.JPG" alt="local walking club" width="100%" height="auto">
+                <a href='https://elimullan.github.io/D-walking/'><img src="media\d-walking.JPG" alt="local walking club" width="100%" height="auto"></a>
+                <div class="project-text">
                 <p>Landing Page for fictional local walking club</p>
+                <p>Click on image to see live project</p>
+                <p>Used HTML, CSS, grid </p>
+                </div>
             </div>            
         </section>
         <section class="skills">
