@@ -219,12 +219,12 @@ header ul a:active, header ul a:hover {
    .intro figure div {
     padding: 2rem;
     font-size: 2vw;
-    width: 100%;
+    width: 110%;
  }
 
     .intro figure div p  {
         padding:0;
-        width:80%;   
+        width:100%;   
 }
     
    /* ..............projects*/
@@ -232,7 +232,7 @@ header ul a:active, header ul a:hover {
     .project-hiking, .project-walking {
         display: flex;
         flex-direction: column;
-        margin: auto;
+        justify-content: center;
 }
     .project-hiking img , .project-walking img {
         width: 100%;        
@@ -269,8 +269,6 @@ header ul a:active, header ul a:hover {
             'skills skills skills skills skills skills '
             'footer footer footer footer footer footer'
     }
-
-
 
    .projects {
        margin: auto;
