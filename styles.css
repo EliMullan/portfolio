@@ -100,7 +100,8 @@ header ul a:active, header ul a:hover {
     grid-area: name;
     max-height: 20rem;
     margin-top: 10%;
-    margin-left: -10%;    
+    margin-left: -10%;
+    text-align: center;    
 }
 
 
@@ -197,6 +198,15 @@ header ul a:active, header ul a:hover {
             'skills skills'
             'footer footer'
     }
+
+    header {
+        font-size: 0.5rem;
+    }
+
+    header div a img{
+        width: 2rem;
+    }
+
    .name {
        text-align: center;
    }
