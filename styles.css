@@ -93,8 +93,7 @@ header ul a:active, header ul a:hover {
 .intro figure div p  {
     padding:1rem;
     width:60%;
-    margin: auto;
-    
+    margin: auto;    
 }
 
 .name {
@@ -146,9 +145,7 @@ header ul a:active, header ul a:hover {
        " . . . css . ."
        " . . js . . ."
        " . git . . . ."
-       " github . . . . ."
-       
-       
+       " github . . . . .";     
 
 }
 
@@ -184,6 +181,119 @@ header ul a:active, header ul a:hover {
 #github {
     grid-area: github;
 }
+
+   /* .........................................for mobile ......................................*/
+@media only screen and (max-width: 480px) {
+    .wrapper {
+        display: grid;
+        max-height: 130rem;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(2rem, auto);
+        grid-template-areas: 
+            'header header'
+            'name name'
+            'intro intro'            
+            'projects projects '
+            'skills skills'
+            'footer footer'
+    }
+   .name {
+       text-align: center;
+   }
+
+   .intro figure img {
+    height: auto;
+    border-radius: 50%;
+    width: 50%;   
+}
+
+   .intro figure div {
+    padding: 2rem;
+    font-size: 2vw;
+    width: 100%;
+ }
+
+    .intro figure div p  {
+        padding:0;
+        width:80%;   
+}
+    
+   /* ..............projects*/
+   
+    .project-hiking, .project-walking {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+}
+    .project-hiking img , .project-walking img {
+        width: 100%;        
+}
+
+    .project-text {      
+        width: 95%;
+        text-align: center;
+}
+
+    .skills{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+    }
+    
+    .skills h1 {
+        width: 100%;
+        text-align: center;
+    }
+}
+ /*...........................end of mobile.........................*/
+
+ /* ...........................for tablet, small laptop............................*/
+
+ @media only screen and (max-width: 1024px) {
+    .name {
+        text-align: center;
+        font-size: 1vw;
+    }
+ 
+    .intro figure img {
+     margin-left: -10%;
+     height: auto;
+     border-radius: 50%;
+     width: 50%;   
+ }
+ 
+    .intro figure div {
+     margin-left: -10%;
+     margin-top: -15%;
+     padding: 2rem;
+     font-size: 1.5vw;
+     width: 40rem;
+  }
+ 
+     .intro figure div p  {
+         padding:0;
+         width:80%;   
+ }
+     
+    /* ..............projects*/
+    
+     .project-hiking, .project-walking {
+         display: flex;
+         flex-direction: column;
+         margin: auto;
+ }
+     .project-hiking img , .project-walking img {
+         width: 100%;        
+ }
+ 
+     .project-text {  
+         margin-top: -3%;    
+         width: 95%;
+         text-align: center;
+ }
+ 
+ 
+ }
 
     /* contact me page*/
 
