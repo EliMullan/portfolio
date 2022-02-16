@@ -153,8 +153,8 @@ header ul a:active, header ul a:hover {
 }
 
 .skills img {
-    width: 5rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
     padding: 0.5rem;
     border: 1px solid rgb(185,164,166);
     border-radius: 50%;
@@ -187,16 +187,34 @@ header ul a:active, header ul a:hover {
 
     /* contact me page*/
 
+.wrapper-contact {
+    display: grid;
+    height: 30rem;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: minmax(4rem, auto);
+    grid-template-areas: 
+        " contact-me .  "
+        ".  contact-methods ";
+}
+
+h1 {
+    grid-area: contact-me;
+    text-align: center;
+}
+
 .contact-methods {
+    grid-area: contact-methods;
     border: 1px solid rgb(185,164,166);
     padding: 10rem;
     width: 50%;
     border-radius: 50%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .contact-methods img {
     width: 5rem;
-    height: 4rem;
+    height: 5rem;
     padding: 0.5rem;
     border: 1px solid rgb(185,164,166);
     border-radius: 50%;
