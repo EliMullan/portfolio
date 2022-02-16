@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-
+   
 }
 
 html {
@@ -17,7 +17,7 @@ body {
     display: grid;
     height: 130rem;
     grid-template-columns: repeat(6, 1fr);
-    grid-auto-rows: minmax(100px, auto); 
+    grid-auto-rows: minmax(2rem, auto); 
     grid-template-areas: 
         'header header header header header header '
         'intro intro intro intro name name '
@@ -27,7 +27,8 @@ body {
 
 header {
     grid-area: header;
-   
+    height: 4rem;
+    
 }
 
 header ul {
@@ -36,11 +37,15 @@ header ul {
     justify-content: flex-end;
     align-items: center;
     list-style-type: none;
+    padding: 1rem;
+    margin: 0;
+
 }
 
 header ul a {
     text-decoration: none;
-    color:aliceblue;
+    color:aliceblue;   
+    margin-right: 1rem;
 }
 
 header ul a:active, header ul a:hover {
@@ -50,14 +55,15 @@ header ul a:active, header ul a:hover {
        /* main page */
 
 .intro {
-grid-area: intro;
+  grid-area: intro;
+  margin:0;
 }
 
 .intro figure img {
     height: auto;
     border-radius: 50%;
-    width: 25rem;
-    
+    max-width: 25rem;
+    margin-top: -10%;
      
 }
 
@@ -66,11 +72,18 @@ grid-area: intro;
     border-radius: 50%;
     background-color: rgba(185,164,166,0.4);
     padding: 3rem;
+    margin-top: -10%;
+ }
 
+.intro figure figcaption div{
+    border-radius: 50%;
+    font-size: 1.5vw;
 }
 
 .name {
     grid-area: name;
+    max-height: 20rem;
+    margin-left: -20%;    
 }
 
 #twitter {
