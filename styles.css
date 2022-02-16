@@ -183,7 +183,7 @@ header ul a:active, header ul a:hover {
 }
 
    /* .........................................for mobile ......................................*/
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
     .wrapper {
         display: grid;
         max-height: 130rem;
@@ -247,53 +247,7 @@ header ul a:active, header ul a:hover {
 }
  /*...........................end of mobile.........................*/
 
- /* ...........................for tablet, small laptop............................*/
 
- @media only screen and (max-width: 1024px) {
-    .name {
-        text-align: center;
-        font-size: 1vw;
-    }
- 
-    .intro figure img {
-     margin-left: -10%;
-     height: auto;
-     border-radius: 50%;
-     width: 50%;   
- }
- 
-    .intro figure div {
-     margin-left: -10%;
-     margin-top: -15%;
-     padding: 2rem;
-     font-size: 1.5vw;
-     width: 40rem;
-  }
- 
-     .intro figure div p  {
-         padding:0;
-         width:80%;   
- }
-     
-    /* ..............projects*/
-    
-     .project-hiking, .project-walking {
-         display: flex;
-         flex-direction: column;
-         margin: auto;
- }
-     .project-hiking img , .project-walking img {
-         width: 100%;        
- }
- 
-     .project-text {  
-         margin-top: -3%;    
-         width: 95%;
-         text-align: center;
- }
- 
- 
- }
 
     /* contact me page*/
 
