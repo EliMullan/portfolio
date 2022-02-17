@@ -118,8 +118,12 @@ button {
     padding: 1rem;
     font-weight: bold;
     cursor: pointer;
-    -webkit-box-shadow: 2px 0px 15px -2px #7A7FFF; 
-    box-shadow: 2px 0px 15px -2px #7A7FFF;
+    -webkit-box-shadow: 2px 8px 15px -2px #7A7FFF; 
+    box-shadow: 2px 8px 15px -2px #7A7FFF;
+}
+
+button:active {
+    transform: translateY(2px);
 }
 
 
@@ -257,13 +261,13 @@ button {
         justify-content: center;
 }
     .project-hiking img , .project-walking img {
-        width: 100%;        
+        max-width: 90%;        
 }
 
     .project-text {   
         text-align: center;
         margin: auto;
-        max-width: 80%;
+        min-width: 90%;
 }
 
     .skills{
@@ -276,11 +280,6 @@ button {
         width: 100%;
         text-align: center;
     }
-
-     /*... mobile contact...*/
-     .contact-methods {
-      border: 1px solid rgb(5, 5, 5);
-     }
 }
  /*...........................end of mobile.........................*/
 

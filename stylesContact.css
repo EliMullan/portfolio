@@ -80,8 +80,12 @@ button {
     padding: 1rem;
     font-weight: bold;
     cursor: pointer;
-    -webkit-box-shadow: 2px 0px 15px -2px #7A7FFF; 
-    box-shadow: 2px 0px 15px -2px #7A7FFF;
+    -webkit-box-shadow: 2px 8px 15px -2px #7A7FFF; 
+    box-shadow: 2px 8px 15px -2px #7A7FFF;
+}
+
+button:active {
+    transform: translateY(2px);
 }
 
 .contact-methods {
