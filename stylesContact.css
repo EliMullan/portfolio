@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Mukta', 'Times New Roman', Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.wrapper-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5rem 5rem 30rem;;
+    grid-template-areas: 
+        " contact-me contact-me  "
+        " button button"
+        "contact-methods  contact-methods ";
+}
+
+header {
+    grid-area: header;
+    height: 4rem;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header div a img {
+    width: 3rem;
+    padding-right : 1rem;
+    opacity: 0.8;
+}
+
+header div a img:hover {
+     opacity: 1;
+}
+
+
+header ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    padding: 1rem;
+    margin: 0;
+}
+
+header ul a {
+    text-decoration: none;  
+    margin-right: 1rem;
+}
+
+header ul a:active, header ul a:hover {
+    color:blueviolet;
+}
+
+
+h1 {
+    grid-area: contact-me;
+    text-align: center;
+}
+
+button {
+    grid-area: button;
+    background-color: rgba(185,164,166,0.4);
+    border-radius: 50%;
+    width: 30%;
+    margin: auto;
+    padding: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-methods {
+    grid-area: contact-methods;
+    border: 1px solid rgb(185,164,166);
+    width: 80%;
+    height: 80%;
+    margin:auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-methods img {
+    width: 5rem;
+    height: auto;
+    padding: 0.5rem;
+    border: 1px solid rgb(185,164,166);
+    border-radius: 50%;
+}
+
+/* ..............tablet and desktop.................*/
+@media only screen and (min-width: 600px) {
+    .wrapper-contact {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        grid-template-rows: 5rem 5rem 30rem;
+        grid-template-areas: 
+            " contact-me contact-me  "
+            " button . "
+            ".  contact-methods "
+            ".  contact-methods ";
+    }
+
+    h1 {
+        text-align: left;
+    }
+
+    button {
+        width: 10rem;
+    }
+
+    .contact-methods {
+        width: 70%;
+        margin-left: 0;
+        height: 100%;
+    }
+}

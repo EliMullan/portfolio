@@ -301,40 +301,7 @@ button {
 
   /* ...........................end of tablet and small laptop.............*/
 
-    /* contact me page*/
-
-.wrapper-contact {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 3fr;
-    grid-template-areas: 
-        " contact-me .  "
-        "contact-methods  contact-methods ";
-}
-
-h1 {
-    grid-area: contact-me;
-    text-align: center;
-}
-
-.contact-methods {
-    grid-area: contact-methods;
-    border: 1px solid rgb(185,164,166);
-    padding: 0;
-    width: 50%;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.contact-methods img {
-    width: 5rem;
-    height: auto;
-    padding: 0.5rem;
-    border: 1px solid rgb(185,164,166);
-    border-radius: 50%;
-}
+    
 
 footer {
     grid-area : footer;
