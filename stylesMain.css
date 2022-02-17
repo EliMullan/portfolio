@@ -80,8 +80,8 @@ header ul a:active, header ul a:hover {
     height: auto;
     border-radius: 50%;
     width: 35%;   
-    -webkit-box-shadow: 1px 8px 15px -4px #000000; 
-    box-shadow: 1px 8px 15px -4px #000000;
+    -webkit-box-shadow: 2px 0px 15px -2px #7A7FFF; 
+    box-shadow: 2px 0px 15px -2px #7A7FFF;
 }
 
 .intro figure div {
@@ -93,8 +93,8 @@ header ul a:active, header ul a:hover {
     margin-top: -10%;
     font-size: 1vw;
     width: 90%;
-    -webkit-box-shadow: 1px 8px 15px -4px #000000; 
-    box-shadow: 1px 8px 15px -4px #000000;
+    -webkit-box-shadow: 2px 0px 15px -2px #7A7FFF; 
+    box-shadow: 2px 0px 15px -2px #7A7FFF;
  }
 
 .intro figure div p  {
@@ -113,12 +113,13 @@ header ul a:active, header ul a:hover {
 
 button {
     background-color: rgba(185,164,166,0.4);
+    color: rgb(3, 3, 59);
     border-radius: 50%;
     padding: 1rem;
     font-weight: bold;
     cursor: pointer;
-    -webkit-box-shadow: 1px 8px 15px -4px #000000; 
-    box-shadow: 1px 8px 15px -4px #000000;
+    -webkit-box-shadow: 2px 0px 15px -2px #7A7FFF; 
+    box-shadow: 2px 0px 15px -2px #7A7FFF;
 }
 
 
@@ -140,8 +141,8 @@ button {
     max-width: 20rem;
     min-height: 10rem;
     margin: 0.5rem;
-        -webkit-box-shadow: 1px 8px 15px -4px #000000; 
-    box-shadow: 1px 8px 15px -4px #000000;
+    -webkit-box-shadow: 2px 0px 15px -2px #7A7FFF; 
+    box-shadow: 2px 0px 15px -2px #7A7FFF;
 }
 
 
@@ -152,8 +153,8 @@ button {
     max-width: 40%;
     margin: 0.5rem;
     text-align: left;
-    -webkit-box-shadow: 1px 8px 15px -4px #000000; 
-    box-shadow: 1px 8px 15px -4px #000000;
+    -webkit-box-shadow: 2px 0px 15px -2px #7A7FFF; 
+    box-shadow: 2px 0px 15px -2px #7A7FFF;
 }
 
 .skills {

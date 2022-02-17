@@ -80,6 +80,8 @@ button {
     padding: 1rem;
     font-weight: bold;
     cursor: pointer;
+    -webkit-box-shadow: 2px 0px 15px -2px #7A7FFF; 
+    box-shadow: 2px 0px 15px -2px #7A7FFF;
 }
 
 .contact-methods {
@@ -92,6 +94,8 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    -webkit-box-shadow: 2px 0px 15px -2px #7A7FFF; 
+    box-shadow: 2px 0px 15px -2px #7A7FFF;
 }
 
 .contact-methods img {
@@ -121,6 +125,7 @@ button {
 
     button {
         width: 10rem;
+        
     }
 
     .contact-methods {
