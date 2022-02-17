@@ -1,5 +1,6 @@
 
-function toggle() {
-    document.body.style.backgroundColor = 'white';
-    document.body.style.color = 'black';    
+const toggleBackground = () => {
+    let element = document.body;   
+    element.classList.toggle('dark-mode');    
 }
+

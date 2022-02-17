@@ -9,9 +9,14 @@ html {
 
 body {
     font-family: 'Mukta', 'Times New Roman', Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+
+}
+
+.dark-mode {
     background-color: black;
     color: white;
-
 }
 
 .wrapper {
@@ -57,8 +62,7 @@ header ul {
 }
 
 header ul a {
-    text-decoration: none;
-    color:aliceblue;   
+    text-decoration: none;  
     margin-right: 1rem;
 }
 
@@ -107,7 +111,7 @@ button {
     background-color: rgba(185,164,166,0.4);
     border-radius: 50%;
     padding: 1rem;
-    color: white;
+    font-weight: bold;
     cursor: pointer;
 }
 
