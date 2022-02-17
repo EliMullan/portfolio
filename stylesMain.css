@@ -217,15 +217,11 @@ button {
     }
 
    .name {
-       text-align: center;
+       margin:auto;
        font-size: 0.7rem;
    }
 
-   .name h1 {
-       margin-left: -20%;
-   }
-
-   .intro figure img {
+    .intro figure img {
     height: auto;
     border-radius: 50%;
     width: 50%;   
@@ -253,9 +249,10 @@ button {
         width: 100%;        
 }
 
-    .project-text {      
-        width: 95%;
+    .project-text {   
         text-align: center;
+        margin: auto;
+        max-width: 80%;
 }
 
     .skills{
